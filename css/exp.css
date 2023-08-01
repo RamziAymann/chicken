@@ -1,0 +1,43 @@
+body{
+	background-color: orange;
+}
+
+.body{
+	clear: both;
+	margin: 0 auto;
+	width: 70%;
+}
+.img{
+	border-radius: 400px;
+}
+
+.imgB{
+	border-radius: 400px;
+
+}
+
+.imgO{
+	border-radius: 400px;
+}
+
+.imgP{
+	border-radius: 400px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 30px;
+	border: 2px solid black;
+	color: black;
+	background-color: green;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+ul a:hover{
+	color: blue;
+	border: 3px solid black;
+
+}

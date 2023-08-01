@@ -1,0 +1,105 @@
+body{
+	background-color: orange;
+	font-family: calibri;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+header{
+	height: 100px;
+}
+
+
+
+nav{  /* étendre le menu de navigation sur toute la page */
+	width: 100%;
+	background-color: #424558;
+	margin: 2% auto;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li{
+	list-style-type: none ;/*enlève les puces des li */
+	float: left;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.table{
+	display: table;
+	margin: 0 auto; /* centrer les éléments du menu */
+}
+
+.menu-ind:hover{
+	border-top: 5px solid #4C8;
+	background-color: rgba(64, 200, 130, 0.15);
+}
+
+.menu-res:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+
+.menu-cont:hover{
+	border-top: 5px solid #0070BB;
+	background-color: rgba(000, 112, 192, 0.15);
+}
+
+nav li:hover a{
+	padding: 15px 30px 20px 30px; /*enlève les dépassements */
+}
+
+@media screen and(max-width: 780px){ /*pour rendre responsive */
+	header{
+		height: 50px;
+	}
+
+	h1{
+		font-size: 28px;
+		margin: 20px 0px 0px 0px;
+	}
+
+	nav li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px;
+
+	}
+}
+
+.mainfooter{
+	width: 100%;
+	float: left;
+	margin: 23% auto;
+	padding-left: 0;
+	background-color: #424558;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size: 30px;
+}
+
+.mainfooter p{
+	text-align: center;
+	color: white;
+}
